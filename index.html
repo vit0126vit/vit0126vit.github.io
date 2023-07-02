@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html>
+<head>
+<meta charset="UTF-8">
+<title>Код JavaScript в HTML-документе</title>
+</head>
 <body>
 
-<h1>Первая страница PHP</h1>
-
-<?php
-echo "Привет Мир!";
-?>
+<p>Нажмите на кнопку ниже, чтобы заданный скрипт выполнился.</p>
+<input type='button' value='Нажмите на меня' onclick='showMessage()'>
+<script>
+function showMessage() {
+  alert('Вы нажали на кнопку!')
+}
+</script>
 
 </body>
 </html>
